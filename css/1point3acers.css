@@ -1,0 +1,12 @@
+#fwin_pop /* 每日答题 */,
+.wp.a_h img, /* home - Top post image */
+.wp.a_t, /* home - official ads under nav */
+.mn > .fl.bm:first-child > .bm.bmw.flg.cl:first-child, /* 小喇叭 */
+.a_pb, /* ads under posts*/
+.viewthread_nge /* posts suggestion */,
+#threadtrack,
+.a_fr.a_cb /* right side floating ad */,
+.ad
+{
+  display: none;
+}

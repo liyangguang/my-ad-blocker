@@ -1,0 +1,13 @@
+iframe,
+#down_ad,
+#downtop + div,
+#tips + center,
+#sidebar > div:first-child
+{
+  display: none !important;
+}
+
+#download + div {
+  height: 0 !important;
+  overflow: hidden;
+}

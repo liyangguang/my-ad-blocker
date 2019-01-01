@@ -1,0 +1,10 @@
+iframe /* home banner*/,
+.nba_er /* floating */,
+.hupu-stream, /* top expanding ad */
+.nomatch1,  /* right side top ad when no match*/
+.tuwenlink  /* right side 识货 */
+{
+  display: none !important;
+}
+
+/**{outline: 1px solid red;}*/

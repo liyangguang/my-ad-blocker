@@ -1,0 +1,13 @@
+
+iframe,
+.entry-cat + div,
+.hotbanner_box,
+ul#section_event,
+div[style] > div[style]
+{
+  display: none;
+}
+
+#section_hot {
+  margin-top: 0 !important;
+}

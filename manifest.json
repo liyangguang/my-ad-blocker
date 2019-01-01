@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Yangguang - CSS",
+  "version": "1.0.0",
+  "description": "My extension to edit CSS",
+  "permissions": ["https://*/*", "http://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.1point3acres.com/*"],
+      "css": ["css/1point3acers.css"]
+    },
+    {
+      "matches": ["https://nba.hupu.com/*"],
+      "css": ["css/hupu.css"]
+    },
+    {
+      "matches": ["https://bbs.hupu.com/*"],
+      "css": ["css/hupubbs.css"]
+    },
+    {
+      "matches": ["https://www.iplaysoft.com/*"],
+      "css": ["css/iplaysoft.css"]
+    },
+    {
+      "matches": ["https://dl.iplaysoft.com/*"],
+      "css": ["css/iplaysoftdl.css"]
+    }
+  ]
+}
