@@ -24,6 +24,14 @@
     {
       "matches": ["https://dl.iplaysoft.com/*"],
       "css": ["css/iplaysoftdl.css"]
+    },
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["css/youtube.css"]
+    },
+    {
+      "matches": ["https://mail.google.com/*"],
+      "css": ["css/gmail.css"]
     }
   ]
 }
