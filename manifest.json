@@ -6,31 +6,32 @@
   "permissions": ["https://*/*", "http://*/*"],
   "content_scripts": [
     {
-      "matches": ["https://www.1point3acres.com/*"],
+      "matches": ["*://www.1point3acres.com/*"],
       "css": ["css/1point3acers.css"]
     },
     {
-      "matches": ["https://nba.hupu.com/*"],
+      "matches": ["*://nba.hupu.com/*"],
       "css": ["css/hupu.css"]
     },
     {
-      "matches": ["https://bbs.hupu.com/*"],
+      "matches": ["*://bbs.hupu.com/*"],
       "css": ["css/hupubbs.css"]
     },
     {
-      "matches": ["https://www.iplaysoft.com/*"],
+      "matches": ["*://www.iplaysoft.com/*"],
       "css": ["css/iplaysoft.css"]
     },
     {
-      "matches": ["https://dl.iplaysoft.com/*"],
+      "matches": ["*://dl.iplaysoft.com/*"],
       "css": ["css/iplaysoftdl.css"]
     },
     {
-      "matches": ["https://www.youtube.com/*"],
-      "css": ["css/youtube.css"]
+      "matches": ["*://www.youtube.com/*"],
+      "css": ["css/youtube.css"],
+      "js": ["script.js"]
     },
     {
-      "matches": ["https://mail.google.com/*"],
+      "matches": ["*://mail.google.com/*"],
       "css": ["css/gmail.css"]
     }
   ]

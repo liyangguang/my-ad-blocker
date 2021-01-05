@@ -6,25 +6,40 @@
 .viewthread_nge /* posts suggestion */,
 #threadtrack,
 .a_fr.a_cb /* right side floating ad */,
-.ad
-{
-  display: none;
-}
-
+.ad,
+.aa0vw1bw3o9, /* page bottom  */
 .enhanced_header .header_banners ~ *,
 .header_banner img,
-.enhanced_header br {
-  display: none;
+.enhanced_header br,
+#toptb,
+.enhanced_header_fixed,
+body > div.fc-ab-root,
+body > div:last-child /* no adblocker notification */ {
+  display: none !important;
+}
+
+body {
+  overflow: auto !important;
+}
+
+.enhanced_header_carousel {
+  height: unset !important;
+  width: unset !important;
+  margin: unset !important;
 }
 
 .enhanced_header {
   height: unset !important;
+  margin: 0 !important;
+  padding: 1em;
+  width: unset !important;
+  display: block !important;
 }
 
 .header_banners {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 8px 4px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 8px;
 }
 
 .header_banner {
