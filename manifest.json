@@ -27,8 +27,7 @@
     },
     {
       "matches": ["*://www.youtube.com/*"],
-      "css": ["css/youtube.css"],
-      "js": ["script.js"]
+      "css": ["css/youtube.css"]
     },
     {
       "matches": ["*://mail.google.com/*"],

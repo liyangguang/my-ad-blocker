@@ -1,10 +1,3 @@
-
-#sub_sidebar iframe /* sidebar ad */,
-.hp-ad250-250 /* sidebar ad*/
-{
-  display: none;
-}
-
-#sub_sidebar .sidebar-bd {
-  top: 0 !important;
+.bbs-post-content video {
+  display: block !important;
 }
