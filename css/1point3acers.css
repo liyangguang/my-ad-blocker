@@ -3,7 +3,9 @@ html body .fc-ab-root,  /* full page prompt */
 #portal_block_653,  /* 右侧 agent 广告 */
 #frame8NzNq1_center, /* 右上角公众号文章 */
 .slideshow a[href^=http], /* 列表里的非帖子链接 */
-#tabzFYo91_content a[href^=http]  /* 列表里的非帖子链接 */
+#tabzFYo91_content a[href^=http],  /* 列表里的非帖子链接 */
+[id*=iframe-ad-container],  /* sidebar floating ads */
+[id*=_adr_abp_container]  /* sidebar ads */
 { 
   display: none !important;
 }
@@ -12,7 +14,7 @@ body {
   overflow: auto !important;
 }
 
-/* slide show */
+/* slide show common. */
 ul.slideshow li {
   display: block !important;
   margin: .5em;
@@ -23,7 +25,24 @@ ul.slideshow img,
   display: none;
 }
 
-span.carousel-title {
+/* sidebar slide show */
+.sd .slideshow li {
+  height: 2rem !important;
+  position: relative;
+}
+
+.sd .slideshow li a {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* top slide show */
+.carousel-1p3a {
+  height: auto !important;
+}
+
+.carousel-1p3a span.carousel-title {
   all: unset !important;
   color: black !important;
 }
@@ -31,8 +50,4 @@ span.carousel-title {
 /* SB user */
 a[href="space-uid-753610.html"] {
   display: none;
-}
-
-.carousel-1p3a {
-  height: auto !important;
 }
