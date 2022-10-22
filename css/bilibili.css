@@ -1,0 +1,4 @@
+.bili-video-card:has(.bili-video-card__info--ad),
+.bili-live-card {
+  display: none;
+}
